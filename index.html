@@ -5,29 +5,18 @@
 		<title>index</title>
 		<link rel="stylesheet" href="common/css/bootstrap-4.3.1/bootstrap.min.css" />
 		<link rel="stylesheet" href="common/css/swiper/swiper.min.css" />
-		<style>
-		    .swiper-container {
-		      width: 100%;
-		      padding-top: 50px;
-		      padding-bottom: 50px;
-		    }
-		    .swiper-slide {
-		      background-position: center;
-		      background-size: cover;
-		      width: 300px;
-		      height: 300px;
-		
-		    }
-		</style>
+		<link rel="stylesheet" href="css/index/index.css" />
 	</head>
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="swiper-container">
-				    <div class="swiper-wrapper">
-						<div class="swiper-slide" style="background-image:url(images/index/mainpic-1.jpg)"></div>
-						<div class="swiper-slide" style="background-image:url(images/index/mainpic-2.jpg)"></div>
-						<div class="swiper-slide" style="background-image:url(images/index/mainpic-3.jpg)"></div>
+				<div class="col-md-12 col-lg-12">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide" style="background-image:url(images/index/mainpic-1.jpg)"></div>
+							<div class="swiper-slide" style="background-image:url(images/index/mainpic-2.jpg)"></div>
+							<div class="swiper-slide" style="background-image:url(images/index/mainpic-3.jpg)"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -51,9 +40,6 @@
 	        modifier: 1,
 	        slideShadows : true,
 	      },
-	      /*pagination: {
-	        el: '.swiper-pagination',
-	      },*/
 	    });
 	</script>
 </html>
