@@ -9,6 +9,12 @@
 	</head>
 	<body>
 		<div class="container">
+			<div class="row top-menu">
+				<div class="col-md-2 col-lg-2"></div>
+				<div class="col-md-4 col-lg-4">首页</div>
+				<div class="col-md-4 col-lg-4">菜单</div>
+				<div class="col-md-2 col-lg-2"></div>
+			</div>
 			<div class="row">
 				<div class="col-md-12 col-lg-12">
 					<div class="swiper-container">
@@ -25,21 +31,5 @@
 	<script src="common/js/jquery/jquery-3.4.1.min.js"></script>
 	<script src="common/js/bootstrap-4.3/bootstrap.min.js"></script>
 	<script src="common/js/swiper/swiper.min.js"></script>
-	<script>
-	    var swiper = new Swiper('.swiper-container', {
-	      effect: 'coverflow',
-	      grabCursor: true,
-	      centeredSlides: true,
-	      slidesPerView: 'auto',
-		  autoplay: true,
-		  loop : true,
-	      coverflowEffect: {
-	        rotate: 50,
-	        stretch: -50,
-	        depth: 20,
-	        modifier: 1,
-	        slideShadows : true,
-	      },
-	    });
-	</script>
+	<script src="js/index/index.js"></script>
 </html>

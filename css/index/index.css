@@ -2,17 +2,34 @@
 	max-width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-image: url(../../images/index/tourism-main.jpg);
+	background-image: url(../../images/index/tourism-main.jpeg);
+	background-size:contain;
+	color: wheat;
 }
 
 .swiper-container {
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-bottom: 50px;
 }
-	.swiper-slide {
+
+.swiper-slide {
 	background-position: center;
 	background-size: cover;
-	width: 300px;
-	height: 300px;
+	width: 270px;
+	height: 270px;
+}
+
+.col-md-12 .col-lg-12{
+	padding: 0px;
+}
+
+.row{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.top-menu{
+	padding-top: 5px;
+	font-weight: bold;
 }
