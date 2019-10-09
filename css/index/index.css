@@ -3,7 +3,7 @@
 	margin: 0px;
 	padding: 0px;
 	background-image: url(../../images/index/tourism-main.jpeg);
-	background-size:contain;
+	background-size:cover;
 	color: wheat;
 }
 
@@ -16,8 +16,7 @@
 .swiper-slide {
 	background-position: center;
 	background-size: cover;
-	width: 270px;
-	height: 270px;
+	box-shadow:0 0 50px 30px transparent inset;
 }
 
 .col-md-12 .col-lg-12{
