@@ -9,14 +9,15 @@
 
 .swiper-container {
 	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 .swiper-slide {
 	background-position: center;
 	background-size: cover;
 	box-shadow:0 0 50px 30px transparent inset;
+	opacity: 1;
 }
 
 .col-md-12 .col-lg-12{
@@ -30,5 +31,49 @@
 
 .top-menu{
 	padding-top: 5px;
+	padding-bottom: 10px;
 	font-weight: bold;
+}
+
+.main-info{
+	background: rgba(100, 149, 237, 0.5)
+}
+
+.menu-day{
+	background-image: linear-gradient(rgba(255, 247, 82, 0),rgba(255, 247, 82, 1));
+	color: aqua;
+	text-align: center;
+	 border: solid 2px #000
+}
+
+.menu-day-up{
+	border-bottom: #000000;
+	border-bottom: solid;
+	border-color: #002752;
+}
+
+.menu-shot{
+	background-image: linear-gradient(rgba(127,59,247, 0),rgba(127,59,247, 1));
+	color: aqua;
+	text-align: center;
+	 border: solid 2px #000
+}
+
+.menu-shot-up{
+	border-bottom: #000000;
+	border-bottom: solid;
+	border-color: #002752;
+}
+
+/* .menu-day-down{
+	height: 100%;
+	width:100%;
+	background: url(../../images/index/menu-day.png) no-repeat;
+	background-size:cover;
+} */
+
+.img-responsive {
+	display: block;
+	height: auto;
+	max-height: 100%;
 }

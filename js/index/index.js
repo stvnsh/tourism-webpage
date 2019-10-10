@@ -1,6 +1,8 @@
 var viewHeight = $(window).height();
 $(".container").css("height", viewHeight);
-$(".swiper-slide").css("height", viewHeight*0.6)
+$(".swiper-slide").css("height", viewHeight*0.6);
+$(".main-text").css("padding-top", viewHeight*0.1);
+$(".main-text").css("padding-bottom", viewHeight*0.1);
 
 var width = document.body.clientWidth; 
 $(".container").css("max-width", width);
@@ -26,8 +28,14 @@ var swiper = new Swiper('.swiper-container', {
 	spaceBetween: 30,
 	effect: 'fade',
 	autoplay: true,
+	preventClicks : false,
 	pagination: {
 		el: '.swiper-pagination',
 		clickable: true,
+	},
+	on: {
+	    slideChangeTransitionStart: function(){
+	      $('#demo').carousel('next')
+	    },
 	},
 });
