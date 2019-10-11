@@ -1,124 +1,69 @@
-.container{
-	max-width: 100%;
-	margin: 0px;
-	padding: 0px;
-	background-image: url(../../images/index/tourism-main.jpeg);
-	background-size:cover;
-	color: wheat;
+.top{
+	height: 68px;
+	background-color: white;
 }
 
-.swiper-container {
-	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 15px;
-}
-
-.swiper-slide {
-	background-position: center;
-	background-size: cover;
-	box-shadow:0 0 50px 30px transparent inset;
-	opacity: 1;
-}
-
-.col-md-12 .col-lg-12{
-	padding: 0px;
-}
-
-.row{
-	margin-left:0px;
-	margin-right:0px;
-}
-
-.top-menu{
-	padding-top: 5px;
-	padding-bottom: 10px;
-	font-weight: bold;
-}
-
-.main-info{
-	background: rgba(100, 149, 237, 0.5)
-}
-
-.menu-day{
-	background-image: linear-gradient(rgba(255, 247, 82, 0),rgba(255, 247, 82, 1));
-	color: aqua;
-	text-align: center;
-	border: solid 1px #000;
-	border-bottom: none;
-}
-
-.menu-day-up{
-	border-bottom: #000000;
-	border-bottom: solid;
-	border-color: #002752;
-}
-
-.menu-shot{
-	background-image: linear-gradient(rgba(127,59,247, 0),rgba(127,59,247, 1));
-	color: aqua;
-	text-align: center;
-	border: solid 1px #000;
-	border-bottom: none;
-}
-
-.menu-shot-up{
-	border-bottom: #000000;
-	border-bottom: solid;
-	border-color: #002752;
-}
-
-.menu-inland{
-	background-image: linear-gradient(rgba(252,158,85, 0),rgba(252,158,85, 1));
-	color: aqua;
-	text-align: center;
-	border: solid 1px #000;
-	border-bottom: none;
-}
-
-.menu-inland-up{
-	border-bottom: #000000;
-	border-bottom: solid;
-	border-color: #002752;
-}
-
-.menu-gat{
-	background-image: linear-gradient(rgba(85,252,179, 0),rgba(85,252,179, 1));
-	color: aqua;
-	text-align: center;
-	border: solid 1px #000;
-	border-bottom: none;
-}
-
-.menu-gat-up{
-	border-bottom: #000000;
-	border-bottom: solid;
-	border-color: #002752;
-}
-
-.menu-international{
-	background-image: linear-gradient(rgba(87,85,252, 0),rgba(87,85,252, 1));
-	color: aqua;
-	text-align: center;
-	border: solid 1px #000;
-	border-bottom: none;
-}
-
-.menu-international-up{
-	border-bottom: #000000;
-	border-bottom: solid;
-	border-color: #002752;
-}
-
-/* .menu-day-down{
+.menu-top{
 	height: 100%;
-	width:100%;
-	background: url(../../images/index/menu-day.png) no-repeat;
-	background-size:cover;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.nav-item{
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 100%;
+	line-height: 100%;
+	font-size: 16px;
+}
+
+.navbar-nav{
+	height: 100%;
+	text-align: center;
+}
+
+.select-now{
+	background-color: rgb(255,157,0);
+}
+
+.nav-link{
+	line-height: 52px;
+	text-align: center;
+	color: #333;
+}
+
+.nav-link:hover{
+	line-height: 52px;
+	text-align: center;
+	color: rgb(255,157,0);
+	border-bottom: rgb(255,157,0);
+	border-bottom: solid 2px;
+}
+
+.link-now{
+	color: #fff !important;
+	font-family: "microsoft yahei";
+}
+
+/* .middle{
+	background-image: url(../../images/index/main-1.jpg);
+	background-size: cover;
 } */
 
-.img-responsive{
-	display: block;
-	height: auto;
-	width: 100%;
+.container{
+	padding: 0;
 }
 
+.middle-text{
+	padding-top: 5%;
+	padding-left: 10%;
+	font-family: "microsoft yahei";
+	font-size: 26px;
+	font-weight: normal;
+	text-shadow: 0 1px 3px rgba(0,0,0,.9);
+	color: whitesmoke;
+}
+
+.swiper-container{
+	height: 100%;
+}
