@@ -43,7 +43,8 @@
 	background-image: linear-gradient(rgba(255, 247, 82, 0),rgba(255, 247, 82, 1));
 	color: aqua;
 	text-align: center;
-	 border: solid 2px #000
+	border: solid 1px #000;
+	border-bottom: none;
 }
 
 .menu-day-up{
@@ -56,10 +57,53 @@
 	background-image: linear-gradient(rgba(127,59,247, 0),rgba(127,59,247, 1));
 	color: aqua;
 	text-align: center;
-	 border: solid 2px #000
+	border: solid 1px #000;
+	border-bottom: none;
 }
 
 .menu-shot-up{
+	border-bottom: #000000;
+	border-bottom: solid;
+	border-color: #002752;
+}
+
+.menu-inland{
+	background-image: linear-gradient(rgba(252,158,85, 0),rgba(252,158,85, 1));
+	color: aqua;
+	text-align: center;
+	border: solid 1px #000;
+	border-bottom: none;
+}
+
+.menu-inland-up{
+	border-bottom: #000000;
+	border-bottom: solid;
+	border-color: #002752;
+}
+
+.menu-gat{
+	background-image: linear-gradient(rgba(85,252,179, 0),rgba(85,252,179, 1));
+	color: aqua;
+	text-align: center;
+	border: solid 1px #000;
+	border-bottom: none;
+}
+
+.menu-gat-up{
+	border-bottom: #000000;
+	border-bottom: solid;
+	border-color: #002752;
+}
+
+.menu-international{
+	background-image: linear-gradient(rgba(87,85,252, 0),rgba(87,85,252, 1));
+	color: aqua;
+	text-align: center;
+	border: solid 1px #000;
+	border-bottom: none;
+}
+
+.menu-international-up{
 	border-bottom: #000000;
 	border-bottom: solid;
 	border-color: #002752;
@@ -72,8 +116,9 @@
 	background-size:cover;
 } */
 
-.img-responsive {
+.img-responsive{
 	display: block;
 	height: auto;
-	max-height: 100%;
+	width: 100%;
 }
+

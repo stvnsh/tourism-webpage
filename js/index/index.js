@@ -3,6 +3,7 @@ $(".container").css("height", viewHeight);
 $(".swiper-slide").css("height", viewHeight*0.6);
 $(".main-text").css("padding-top", viewHeight*0.1);
 $(".main-text").css("padding-bottom", viewHeight*0.1);
+$(".img-responsive").css("height", viewHeight - $(".img-responsive").offset().top);
 
 var width = document.body.clientWidth; 
 $(".container").css("max-width", width);
