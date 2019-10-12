@@ -45,6 +45,62 @@
 	font-family: "microsoft yahei";
 }
 
+.qq-login{
+	line-height: 52px;
+	background-image: url(../../images/index/main-icons.png);
+	background-position: -30px -50px !important;
+	display: inline-block;
+	margin-right: 6px;
+	width: 26px;
+	height: 26px;
+	vertical-align: -7px;
+	padding-top: 21px;
+	margin-top: 21px;
+}
+
+.weixin-login{
+	line-height: 52px;
+	background-image: url(../../images/index/main-icons.png);
+	background-position: 0 -165px !important;
+	display: inline-block;
+	margin-right: 6px;
+	width: 26px;
+	height: 26px;
+	vertical-align: -7px;
+	padding-top: 21px;
+	margin-top: 21px;
+}
+
+.qq-login:hover{
+	line-height: 52px;
+	background-image: url(../../images/index/main-icons.png);
+	background-position: -30px -80px !important;
+	display: inline-block;
+	margin-right: 6px;
+	width: 26px;
+	height: 26px;
+	vertical-align: -7px;
+	padding-top: 21px;
+	margin-top: 21px;
+}
+
+.weixin-login:hover{
+	line-height: 52px;
+	background-image: url(../../images/index/main-icons.png);
+	background-position: -30px -165px !important;
+	display: inline-block;
+	margin-right: 6px;
+	width: 26px;
+	height: 26px;
+	vertical-align: -7px;
+	padding-top: 21px;
+	margin-top: 21px;
+}
+
+.bottom{
+	padding-bottom: 20px;
+}
+
 /* .middle{
 	background-image: url(../../images/index/main-1.jpg);
 	background-size: cover;
@@ -64,6 +120,195 @@
 	color: whitesmoke;
 }
 
+.middle{
+	padding-bottom: 20px;
+}
+
 .swiper-container{
 	height: 100%;
+}
+
+.bottom-day{
+	width: 134px;
+	border: 1px solid #E5E5E5;
+	background-image: url(../../images/index/bottom-icon.png);
+	background-repeat: no-repeat;
+	background-size: 104px auto;
+	background-position-x: 59px;
+	background-position-y: -24px;
+	height: 55px;
+	padding-top: 8px;
+	padding-left: 7px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.bottom-shot{
+	width: 134px;
+	border: 1px solid #E5E5E5;
+	background-image: url(../../images/index/bottom-icon.png);
+	background-repeat: no-repeat;
+	background-size: 104px auto;
+	background-position-x: 59px;
+	background-position-y: -335px;
+	height: 55px;
+	padding-top: 8px;
+	padding-left: 7px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.bottom-inland{
+	width: 134px;
+	border: 1px solid #E5E5E5;
+	background-image: url(../../images/index/bottom-icon.png);
+	background-repeat: no-repeat;
+	background-size: 104px auto;
+	background-position-x: 59px;
+	background-position-y: -441px;
+	height: 55px;
+	padding-top: 8px;
+	padding-left: 7px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.bottom-gat{
+	width: 134px;
+	border: 1px solid #E5E5E5;
+	background-image: url(../../images/index/bottom-icon.png);
+	background-repeat: no-repeat;
+	background-size: 104px auto;
+	background-position-x: 59px;
+	background-position-y: -233px;
+	height: 55px;
+	padding-top: 8px;
+	padding-left: 7px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.bottom-abroad{
+	width: 134px;
+	border: 1px solid #E5E5E5;
+	background-image: url(../../images/index/bottom-icon.png);
+	background-repeat: no-repeat;
+	background-size: 104px auto;
+	background-position-x: 59px;
+	background-position-y: -651px;
+	height: 55px;
+	padding-top: 8px;
+	padding-left: 7px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.bottom-travels{
+	width: 134px;
+	border: 1px solid #E5E5E5;
+	background-image: url(../../images/index/bottom-icon.png);
+	background-repeat: no-repeat;
+	background-size: 104px auto;
+	background-position-x: 59px;
+	background-position-y: -129px;
+	height: 55px;
+	padding-top: 8px;
+	padding-left: 7px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.bottom-title{
+	color: #333;
+	display: inline-block;
+	height: 22px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	font-family: "microsoft yahei";
+}
+
+.bottom-subtitle{
+	color: #9D9D9D;
+	height: 16px;
+	padding-top: 1px;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 16px;
+	font-family: "microsoft yahei";
+}
+
+.hot-project-pic img{
+	width: 90%;
+}
+
+.hot-project-top h5{
+	width: 50%;
+	padding-bottom: 10px;
+	border-bottom: 3px solid black;
+	margin-bottom: 10px;
+}
+
+.hot-travels-top h5{
+	width: 50%;
+	padding-bottom: 10px;
+	border-bottom: 3px solid black;
+	margin-bottom: 10px;
+	color: rgb(255,157,0);
+}
+
+.hot-project-content a{
+	width: 90%;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.hot-project-content p{
+	width: 90%;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	max-height: 350px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+	overflow: hidden;
+}
+
+.hot-project-data{
+	width: 90%;
+	padding-top: 8px;
+	border-top: 2px solid #0069D9;
+	border-bottom: 2px solid #0069D9;
+	margin-bottom: 15px;
+}
+
+.hot-travel div img{
+	height: 220px;
+	width: 322px;
+	margin-bottom: 15px;
+}
+
+.hot-travel-title{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	font-size: 18px;
+}
+
+.hot-travel-content{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+	overflow: hidden;
+	font-size: 14px;
+	padding-top: 10px;
+	//height: 145px;
+	padding-bottom: 20px;
+}
+
+.hot-travel-author{
+	color: blue;
 }
