@@ -1,8 +1,8 @@
 var viewHeight = $(window).height();
 $(".middle").css("height", viewHeight*0.6);
 
-var width = document.body.clientWidth; 
-$(".container").css("max-width", width);
+/* var width = document.body.clientWidth; 
+$(".container").css("max-width", width); */
 
 
 /* var swiper = new Swiper('.swiper-container', {
