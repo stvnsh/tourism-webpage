@@ -26,6 +26,7 @@
 
 .project-item{
 	margin-top: 20px;
+	border-bottom: solid rgb(0,0,0,0.2) 3px;
 }
 
 .project-pic{
@@ -61,3 +62,4 @@
 	padding: 0px;
 	font-size: 1rem;
 }
+
